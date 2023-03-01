@@ -1,0 +1,47 @@
+#display {
+    width: 260px;
+    height: 70px;
+    text-align: end;
+    background-color: rgb(36, 13, 51);
+    margin: 35px auto;
+    padding: 20px;
+    border: none;
+    font-size: 50px;
+    color: azure;
+    border-radius: 30px;
+}
+
+div.main {
+    background-color: rgba(204, 204, 23, 0.144);
+    border-radius: 20px;
+    border-color: black;
+    border-width: 8px;
+    border-style: groove;
+}
+
+button {
+    width: 60px;
+    margin: 6px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(231, 135, 8);
+    border: none;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospaces;
+}
+
+div.buttons {
+    display: grid;
+    justify-content: center;
+    padding: 15px;
+    grid-template-columns: repeat(4, 70px);
+    border: none;
+    border-radius: 30px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
